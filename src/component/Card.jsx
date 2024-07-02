@@ -1,5 +1,6 @@
 import './Card.css';
 
+// eslint-disable-next-line react/prop-types
 export default function Card({ name, description, isVisited, imgUrl }) {
     return (
         <div className="card">
