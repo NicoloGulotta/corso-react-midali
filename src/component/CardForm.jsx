@@ -42,8 +42,7 @@ export default function CardForm() {
     return (
         <>
             <form onSubmit={handleSubmit} className="container-form">
-                <h1>Ti amo tanto</h1>
-                {/* <h1>Aggiungi una città</h1> */}
+                <h1>Aggiungi una città</h1>
                 <div className='form-box'>
                     <label>Nome</label>
                     <input
