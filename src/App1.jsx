@@ -38,7 +38,7 @@ function GoogleLoginButton() {
 
   return (
     <button onClick={() => login()}>
-      {userInfo ? `Benvenuto, ${userInfo.name}!` : 'Accedi con Google'}
+      {userInfo ? `Eccoti!, ${userInfo.name}!` : 'Accedi con Google'}
     </button>
   );
 }
