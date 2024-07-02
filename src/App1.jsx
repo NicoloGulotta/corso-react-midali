@@ -32,6 +32,8 @@ function GoogleLoginButton() {
       }
     },
     onError: () => console.log('Login fallito'),
+    redirect_uri: 'https://corso-react-midali-redux.vercel.app' // Assicurati che sia corretto
+
   });
 
   return (
