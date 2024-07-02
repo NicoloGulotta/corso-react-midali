@@ -54,13 +54,13 @@ function App() {
 
   return (
     <GoogleOAuthProvider clientId="01001229423013-015nt1ivd2jb0i7erg8arkbcka361nuh.apps.googleusercontent.com">
-      <div className="app-container">
+      <div className="app-container" style={{ margin: "10px" }}>
         <GoogleLoginButton />
 
         <div className="content-area">
-          <CardForm onAddCity={handleNewCity} />
           <CounterComponent />
 
+          <CardForm onAddCity={handleNewCity} />
           <h2>Le tue città:</h2>
           <div className="card-grid">
             {cities.map(city => (
